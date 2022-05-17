@@ -1,0 +1,7 @@
+1 https://devpractice.ru/python-lesson-17-virtual-envs/#p41
+
+2 https://hh.ru/search/vacancy?area=113&schedule=remote&search_field=description&search_field=company_name&search_field=name&text=python&clusters=true&enable_snippets=true&ored_clusters=true&from=SIMILAR_QUERY&hhtmFromLabel=SIMILAR_QUERY&hhtmFrom=vacancy_search_list
+
+3 https://www.superjob.ru/vacancy/search/?keywords=python&geo%5Bt%5D%5B0%5D=4
+
+My bad. Не могу найти чтоб GET-параметры и якоря были в одном URL.
