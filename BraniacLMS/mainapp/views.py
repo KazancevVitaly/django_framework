@@ -13,9 +13,9 @@ class NewsPageView(TemplateView):
         # context['news_title'] = 'Громкий новостной заголовок'
         # context['news_preview'] = 'Предварительное описание, которое заинтересует каждого'
         context = {
-            'news_title': 'Громкий новостной заголовок',
-            'news_preview': 'Предварительное описание, которое заинтересует каждого',
-            'range': range(5)
+            "news_title": "Громкий новостной заголовок",
+            "news_preview": "Предварительное описание, которое заинтересует каждого",
+            "range": range(5),
         }
         return context
 
