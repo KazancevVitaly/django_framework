@@ -1,10 +1,7 @@
-<<<<<<< HEAD
 {% extends 'base.html' %}
-
 {% block content %}
-
 {% with range as double_range %}
-=======
+
 <!doctype html>
 <html lang="ru">
 
@@ -70,21 +67,12 @@
             </div>
         </div>
     </nav>
-
-
-
-
-
     <div class="container-md">
 
-        
->>>>>>> master
 
 <div class="row">
 
   <div class="col-lg-8">
-<<<<<<< HEAD
-
     {% for i in double_range %}
     <div class="card my-2">
       <div class="card-body">
@@ -95,55 +83,6 @@
       </div>
     </div>
     {% endfor %}
-
-=======
-    
-    <div class="card my-2">
-      <div class="card-body">
-        <h5 class="card-title">Новость</h5>
-        <h6 class="card-subtitle mb-2 text-muted">2021-04-29 20-50-26</h6>
-        <p class="card-text">Предварительное описание новости</p>
-        <a href="#" class="card-link">Подробнее</a>
-      </div>
-    </div>
-    
-    <div class="card my-2">
-      <div class="card-body">
-        <h5 class="card-title">Новость</h5>
-        <h6 class="card-subtitle mb-2 text-muted">2021-04-28 20-50-26</h6>
-        <p class="card-text">Предварительное описание новости</p>
-        <a href="#" class="card-link">Подробнее</a>
-      </div>
-    </div>
-    
-    <div class="card my-2">
-      <div class="card-body">
-        <h5 class="card-title">Новость</h5>
-        <h6 class="card-subtitle mb-2 text-muted">2021-04-27 20-50-26</h6>
-        <p class="card-text">Предварительное описание новости</p>
-        <a href="#" class="card-link">Подробнее</a>
-      </div>
-    </div>
-    
-    <div class="card my-2">
-      <div class="card-body">
-        <h5 class="card-title">Новость</h5>
-        <h6 class="card-subtitle mb-2 text-muted">2021-04-26 20-50-26</h6>
-        <p class="card-text">Предварительное описание новости</p>
-        <a href="#" class="card-link">Подробнее</a>
-      </div>
-    </div>
-    
-    <div class="card mt-2">
-      <div class="card-body">
-        <h5 class="card-title">Новость</h5>
-        <h6 class="card-subtitle mb-2 text-muted">2021-04-25 20-50-26</h6>
-        <p class="card-text">Предварительное описание новости</p>
-        <a href="#" class="card-link">Подробнее</a>
-      </div>
-    </div>
-    
->>>>>>> master
   </div>
 
   <div class="col-lg-4">
@@ -165,13 +104,8 @@
             </div>
             <input type="date" class="form-control" name="dateTo">
           </div>
-
-<<<<<<< HEAD
           <button type="submit"
             class="btn btn-primary btn-block">Фильтровать</button>
-=======
-          <button type="submit" class="btn btn-primary btn-block">Фильтровать</button>
->>>>>>> master
         </form>
       </div>
     </div>
@@ -183,35 +117,17 @@
   <nav aria-label="Page navigation example">
     <ul class="pagination">
       <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-<<<<<<< HEAD
-
       {% for i in double_range %}
       <li class="page-item"><a class="page-link" href="{% url 'mainapp:news_paginator' page=i %}">{{ i }}</a></li>
       {% endfor %}
-
-=======
-      <li class="page-item"><a class="page-link" href="#">1</a></li>
-      <li class="page-item"><a class="page-link" href="#">2</a></li>
-      <li class="page-item"><a class="page-link" href="#">3</a></li>
->>>>>>> master
       <li class="page-item"><a class="page-link" href="#">Next</a></li>
     </ul>
   </nav>
 </div>
-
-<<<<<<< HEAD
 {% endwith %}
 
 {% endblock content %}
-=======
-
-
     </div>
-
-
-
-
-
     <!-- Footer -->
 
     <div class="container-lg mt-auto">
@@ -295,4 +211,3 @@
 </body>
 
 </html>
->>>>>>> master
