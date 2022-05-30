@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 from datetime import datetime
 
+=======
+>>>>>>> master
 from django.views.generic import TemplateView
 
 
@@ -10,6 +13,7 @@ class MainPageView(TemplateView):
 class NewsPageView(TemplateView):
     template_name = "mainapp/news.html"
 
+<<<<<<< HEAD
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         # context['news_title'] = 'Громкий новостной заголовок'
@@ -29,6 +33,8 @@ class NewsWithPaginatorView(NewsPageView):
         context["page_num"] = page
         return context
 
+=======
+>>>>>>> master
 
 class CoursesPageView(TemplateView):
     template_name = "mainapp/courses_list.html"
@@ -43,4 +49,8 @@ class DocSitePageView(TemplateView):
 
 
 class LoginPageView(TemplateView):
+<<<<<<< HEAD
     template_name = "mainapp/login.html"
+=======
+    template_name = "mainapp/login.html"
+>>>>>>> master
