@@ -1,3 +1,4 @@
+from authapp import models
 from django.contrib import messages
 from django.contrib.auth.views import LoginView, LogoutView
 from django.http.response import HttpResponseRedirect
@@ -5,8 +6,6 @@ from django.urls import reverse_lazy
 from django.utils.safestring import mark_safe
 from django.utils.translation import gettext_lazy as _
 from django.views.generic import TemplateView
-
-from authapp import models
 
 
 class CustomLoginView(LoginView):
