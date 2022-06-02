@@ -10,8 +10,9 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
-import environs
 from pathlib import Path
+
+import environs
 
 env = environs.Env()
 env.read_env()
@@ -43,7 +44,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "markdownify.apps.MarkdownifyConfig",
-    "social_django",   # ранее mainapp & authapp !!!
+    "social_django",  # ранее mainapp & authapp !!!
     "mainapp",
     "authapp",
 ]
@@ -125,8 +126,8 @@ AUTHENTICATION_BACKENDS = (
     "django.contrib.auth.backends.ModelBackend",
 )
 
-SOCIAL_AUTH_GITHUB_KEY = env.str('SOCIAL_AUTH_GITHUB_KEY')
-SOCIAL_AUTH_GITHUB_SECRET = env.str('SOCIAL_AUTH_GITHUB_SECRET')
+SOCIAL_AUTH_GITHUB_KEY = env.str("SOCIAL_AUTH_GITHUB_KEY")
+SOCIAL_AUTH_GITHUB_SECRET = env.str("SOCIAL_AUTH_GITHUB_SECRET")
 
 # CACHES = {"default": env.dj_cache_url("CACHE_URL")}
 # Internationalization
