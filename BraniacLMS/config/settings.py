@@ -128,7 +128,7 @@ AUTHENTICATION_BACKENDS = (
 SOCIAL_AUTH_GITHUB_KEY = env.str('SOCIAL_AUTH_GITHUB_KEY')
 SOCIAL_AUTH_GITHUB_SECRET = env.str('SOCIAL_AUTH_GITHUB_SECRET')
 
-CACHES = {"default": env.dj_cache_url("CACHE_URL")}
+# CACHES = {"default": env.dj_cache_url("CACHE_URL")}
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
