@@ -1,6 +1,5 @@
 from django.shortcuts import get_object_or_404
 from django.views.generic import TemplateView
-
 from mainapp import models as mainapp_models
 
 
@@ -56,5 +55,5 @@ class DocSitePageView(TemplateView):
     template_name = "mainapp/doc_site.html"
 
 
-class LoginPageView(TemplateView):
-    template_name = "mainapp/login.html"
+# class LoginPageView(TemplateView):
+#     template_name = "mainapp/login.html"
