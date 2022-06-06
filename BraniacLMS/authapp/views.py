@@ -1,5 +1,6 @@
 import os
 
+from authapp import forms
 from django.contrib import messages
 from django.contrib.auth import get_user_model
 from django.contrib.auth.mixins import LoginRequiredMixin
@@ -9,8 +10,6 @@ from django.urls import reverse_lazy
 from django.utils.safestring import mark_safe
 from django.utils.translation import gettext_lazy as _
 from django.views.generic import CreateView, TemplateView
-
-from authapp import forms
 
 
 class CustomLoginView(LoginView):
