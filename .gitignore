@@ -224,3 +224,4 @@ fabric.properties
 *.png
 
 .vscode/
+.idea/
