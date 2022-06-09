@@ -11,7 +11,6 @@ from django.template.loader import render_to_string
 from django.urls import reverse_lazy
 from django.utils.translation import gettext_lazy as _
 from django.views.generic import CreateView, DeleteView, DetailView, ListView, TemplateView, UpdateView, View
-
 from mainapp import forms as mainapp_forms
 from mainapp import models as mainapp_models
 from mainapp import tasks as mainapp_tasks
