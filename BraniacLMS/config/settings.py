@@ -174,9 +174,7 @@ LOGGING = {
     "version": 1,
     "disable_existing_loggers": False,
     "formatters": {
-        "console": {
-            "format": "[%(asctime)s] %(levelname)s %(name)s (%(lineno)d) %(message)s"
-        },
+        "console": {"format": "[%(asctime)s] %(levelname)s %(name)s (%(lineno)d) %(message)s"},
     },
     "handlers": {
         "file": {
