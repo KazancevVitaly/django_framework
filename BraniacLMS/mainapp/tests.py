@@ -1,22 +1,19 @@
 import pickle
-from unittest import mock
 from http import HTTPStatus
+from unittest import mock
 
-from django.test import Client, TestCase
-from django.core import mail as django_mail
-from django.urls import reverse
+from authapp import models as authapp_models
 from django.conf import settings
 from django.contrib.staticfiles.testing import StaticLiveServerTestCase
-
+from django.core import mail as django_mail
+from django.test import Client, TestCase
+from django.urls import reverse
+from mainapp import models as mainapp_models
+from mainapp import tasks as mainapp_tasks
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.webdriver import WebDriver
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-
-from authapp import models as authapp_models
-from mainapp import models as mainapp_models
-from mainapp import tasks as mainapp_tasks
-
 
 
 class TestMainPage(TestCase):
