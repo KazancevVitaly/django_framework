@@ -225,3 +225,5 @@ fabric.properties
 
 .vscode/
 .idea/
+
+secret.txt
